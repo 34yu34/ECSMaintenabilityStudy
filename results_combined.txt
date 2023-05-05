@@ -1,0 +1,60 @@
+Results for GodotECS/godex:
+Number of commits: 490
+Number of file changes: 358086
+Number of fix commits: 82
+Number of file changes in fix commits: 10073
+
+Results for skypjack/entt:
+Number of commits: 490
+Number of file changes: 71324
+Number of fix commits: 13
+Number of file changes in fix commits: 46
+
+Results for SanderMertens/flecs:
+Number of commits: 490
+Number of file changes: 1554265
+Number of fix commits: 155
+Number of file changes in fix commits: 720756
+
+Results for sschmid/Entitas:
+Number of commits: 490
+Number of file changes: 157360
+Number of fix commits: 61
+Number of file changes in fix commits: 13662
+
+Results for Ubpa/UECS:
+Number of commits: 253
+Number of file changes: 48129
+Number of fix commits: 30
+Number of file changes in fix commits: 2535
+
+Results for godotengine/godot:
+Number of commits: 490
+Number of file changes: 233644
+Number of fix commits: 201
+Number of file changes in fix commits: 9378
+
+Results for pixijs/pixijs:
+Number of commits: 490
+Number of file changes: 374859
+Number of fix commits: 186
+Number of file changes in fix commits: 11072
+
+Results for BabylonJS/Babylon.js:
+Number of commits: 490
+Number of file changes: 47650
+Number of fix commits: 204
+Number of file changes in fix commits: 7511
+
+Results for OpenDiablo2/OpenDiablo2:
+Number of commits: 490
+Number of file changes: 51565
+Number of fix commits: 160
+Number of file changes in fix commits: 12058
+
+Results for minetest/minetest:
+Number of commits: 490
+Number of file changes: 251732
+Number of fix commits: 88
+Number of file changes in fix commits: 4205
+
