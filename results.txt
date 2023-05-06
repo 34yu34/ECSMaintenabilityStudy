@@ -1,6 +1,0 @@
-Results for alecthomas/entityx:
-Number of commits: 319
-Number of file changes: 833918
-Number of fix commits: 89
-Number of file changes in fix commits: 458365
-
