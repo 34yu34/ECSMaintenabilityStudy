@@ -59,9 +59,15 @@ faultproness = TotalBugFixFilesChanges / TotalFileChanges
 
 Finding the repositories was easier than anticipated since I had experience with a lot of different videogame engines and used quite my share of ECS based engine. Therefore, however subjective my analysis was, i was able to decern the true making of an ECS engine from the top  research prospect. I was mostly looking at an architecture that encouraged the usage of Components and Systems. That led me to 5 well known plugins that anyone who dwelved a bit into video game ECS development would know and that are presented in table 1. From those plugins, i diretly went and found the open source game engine linked to them. this led me to find GODOT engine. All the other game engine found were well known and had the most Fork. Fork made sense in the context of video game engines since the more fork were used, the more projects statrting with the engine there are. This enable to refute the null hypotheses RQ0. A lot of ECS engine does use a basic Object Oriented framework to work. The best example of which being godot ECS plugin. 
 
-The sheer amount of commit every repository had made it so that an upper limit had to be drawn in oreder to enable me to finally get some results. For example, the principal godot repositories had over 53k commits. With the simple github API token given to me, I was only able to process 5k commits per hour. This would have resulted in over a day to get all the results from all the engines. Instead, I focus on the most recent 500 commits of each repo. I was then able to find change proness of each repositories with the simple formula given at the start. Results are shown in the table 2.
+The sheer amount of commit every repository had made it so that an upper limit had to be drawn in order to enable me to finally get some results. For example, the principal godot repositories had over 53k commits. With the simple github API token given to me, I was only able to process 5k commits per hour. This would have resulted in over a day to get all the results from all the engines. Since I did not have the time to do all that, i decided to subsample. Instead, I focus on the most recent 500 commits of each repo. I was then able to find change proness of each repositories with the simple formula given at the start. Results are shown in the table 2. Flecs seems to be out of place with above of a million changes in the same commit. Since it seems to be anomalous data, it stops us from refuting our null hypothesis RQ1.
+
+Last statistic that we wanted to see was faultproness. I used a naive approach that let me simply get the percentage of commits that focus on bugfixes out of the total amount of changes. This led to the percentage shown in table 3. Same as for table 2, flecs seems to be an anomalous data that does not bring clear information on the table. It has about 10 times more changes than the average repo, thus giving us a bad representation of ECS base code. Because of this, it is not possible to refute hypothesis RQ2.
 
 # Discussion
+
+As sad it was to find a strongly anomalous data, it is still possible to find something out of the remainder data. Consequently, we examine both godot repositorya nd it's ECS plugin godex. botrh had over 500 commits and can therefore be fairly well compare. Godex being newer and having less commit, it made sense for it to have the most changes by commit. around 1.7 times more changes. However, when looking at the most recents commits, and therfore at the ones who should try to tackle the most bug, we discover that fault seems to appear 1% less in godot. Entt is another great case study as it probably is the most known ECS engine on the open-source market, rivaled only by Unity DOTS technology. Seeing that over the 500 commits there were almost no bug and only feature addition or removal let us think that ECS might really be more maintenable. However, all these statistics seems to lack just a bit to prove a that ECS is also a more maintenable architecture than the other architecture used in video games. Form my perspective, it seems like changepronness (or at least my way of calculating it) does not seems to be affected by the architecture. However, althought impossible to acheive a clear conclusion, data does point toward fault-proness being a little bit smaller in ECS base architecture. the thing that blcks us from that conclusion is flecs results that gave us a whoping 50% fault ratio. 
+
+This study needed to manually find the repositories that would be studied since there are no tools as far as i'm concern that let one knows if a repository is really of ECS architecture. Therefore, it limited my ability to find more data.We were able to prove that almost all ECS project does begin in some way, not as direct data-oriented programming, but in part as object oriented programming. It makes sense too, ass a lot of ecs engine/pluggins are made to work on well known video game architecture like Unity or Unreal Engine. 
 
 # Validity
 
@@ -69,12 +75,11 @@ This research had validity issue that i tried to stop. First one being the fact 
 
 For construct validity, it regards the tools used for this study. My main tool was github and its API. Since github is the biggest center for open source repositories it make sense to use it instead of any other. Also being alone, I had to focus my search where iot seemed to matter most and github is probably the place where i would grab the most informations.
 
-for external validity, it regards how generalizable this study can be. With the way information was grabed,  this study is highly repoductible and used some big programs with above 2k commits to attain its objective. It make sense to observe that the generalisation make sense.
+for external validity, it regards how generalizable this study can be. With the way information was grabed,  this study is highly repoductible and used some big programs with above 2k commits to attain its objective. With that much commit to analyse, it make sense that the generalisation can be quite accurate. However, this study only focus on 5 repo from each due to resources reason.
 
 # Conclusion
 
-This study 
-
+This study was aiming at 
 
 # References
 

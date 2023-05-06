@@ -1,6 +1,6 @@
-Results for SanderMertens/flecs:
-Number of commits: 490
-Number of file changes: 1554265
-Number of fix commits: 155
-Number of file changes in fix commits: 720756
+Results for alecthomas/entityx:
+Number of commits: 319
+Number of file changes: 833918
+Number of fix commits: 89
+Number of file changes in fix commits: 458365
 
